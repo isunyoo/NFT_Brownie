@@ -7,7 +7,7 @@ dog_metadata_dic = {
     # "PUG": "https://ipfs.io/ipfs/Qmd9MCGtdVz2miNumBHDbvj8bigSgTwnr4SbyH6DNnpWdt?filename=0-PUG.json",
     # "SHIBA_INU": "https://ipfs.io/ipfs/QmdryoExpgEQQQgJPoruwGJyZmz6SqV4FRTX1i73CT3iXn?filename=1-SHIBA_INU.json",
     # "ST_BERNARD": "https://ipfs.io/ipfs/QmbBnUjyHHN7Ytq9xDsYF9sucZdDJLRkWz7vnZfrjMXMxs?filename=2-ST_BERNARD.json",
-    "GRUMPY_CAT" : "https://ipfs.io/ipfs/QmXxtx8HRwgWz8w53ugDVEocvmffpHVFnus5QHJyUWcSnc?filename=0-GRUMPY_CAT.json"                      
+    "GRUMPY_CAT" : "https://ipfs.io/ipfs/QmaSK3Gf6SuY8VLq8WKpX3Ri6ABJ6qkmMbNe7uhD6H2iSE?filename=0-GRUMPY_CAT.json"                     
 }
 
 def main():
