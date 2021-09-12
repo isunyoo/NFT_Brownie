@@ -2,8 +2,8 @@
 from brownie import SimpleCollectible, accounts, network, config
 from scripts.helpful_scripts import OPENSEA_FORMAT
 
-sample_token_uri = "https://ipfs.io/ipfs/Qmd9MCGtdVz2miNumBHDbvj8bigSgTwnr4SbyH6DNnpWdt?filename=0-PUG.json"
-
+# sample_token_uri = "https://ipfs.io/ipfs/Qmd9MCGtdVz2miNumBHDbvj8bigSgTwnr4SbyH6DNnpWdt?filename=0-PUG.json"
+sample_token_uri = "https://ipfs.io/ipfs/QmXxtx8HRwgWz8w53ugDVEocvmffpHVFnus5QHJyUWcSnc?filename=0-GRUMPY_CAT.json"
 
 def main():
     dev = accounts.add(config["wallets"]["from_key"])
