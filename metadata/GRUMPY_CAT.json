@@ -1,0 +1,11 @@
+{
+    "name": "GRUMPY_CAT",
+    "description": "A doubtful GRUMPY_CAT pup!",
+    "image": "https://ipfs.io/ipfs/QmWFGVCSpuStFpf6mCeQ6ocCivWK5NhLcp3FNQpoJfFpHz?filename=cat.png",
+    "attributes": [
+        {
+            "trait_type": "Grumpy",
+            "value": 100
+        }
+    ]
+}
