@@ -17,7 +17,6 @@ breed_to_image_uri = {
     "GRUMPY_CAT" : "https://ipfs.io/ipfs/QmWFGVCSpuStFpf6mCeQ6ocCivWK5NhLcp3FNQpoJfFpHz?filename=cat.png"
 }
 
-
 def main():
     print("Working on " + network.show_active())
     advanced_collectible = AdvancedCollectible[len(AdvancedCollectible) - 1]
@@ -27,7 +26,6 @@ def main():
         + str(number_of_advanced_collectibles)
     )
     write_metadata(number_of_advanced_collectibles, advanced_collectible)
-
 
 def write_metadata(token_ids, nft_contract):
     for token_id in range(token_ids):
@@ -68,7 +66,6 @@ def write_metadata(token_ids, nft_contract):
                 upload_to_ipfs(metadata_file_name)
 
 # curl -X POST -F file=@metadata/rinkeby/0-SHIBA_INU.json http://localhost:5001/api/v0/add
-
 
 def upload_to_ipfs(filepath):
     with Path(filepath).open("rb") as fp:

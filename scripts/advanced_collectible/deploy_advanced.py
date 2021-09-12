@@ -2,7 +2,6 @@
 from brownie import AdvancedCollectible, accounts, network, config
 from scripts.helpful_scripts import fund_with_link
 
-
 def main():
     dev = accounts.add(config["wallets"]["from_key"])
     print(network.show_active())

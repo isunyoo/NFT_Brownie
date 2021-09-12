@@ -3,7 +3,6 @@ from brownie import AdvancedCollectible, accounts, config
 from scripts.helpful_scripts import get_breed, fund_with_link
 import time
 
-
 def main():
     dev = accounts.add(config["wallets"]["from_key"])
     advanced_collectible = AdvancedCollectible[len(AdvancedCollectible) - 1]
