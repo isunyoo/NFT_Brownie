@@ -1,0 +1,11 @@
+{
+    "name": "GHOST_CAT",
+    "description": "A Halloween GHOST_CAT pup!",
+    "image": "https://ipfs.io/ipfs/QmWZ2cMMPD4wTLjaP7RjVQyqrwnhsnRB2PTtsaxXsT251P?filename=cat2.png",               
+    "attributes": [
+        {
+            "trait_type": "Halloween",
+            "value": 100
+        }
+    ]
+}
