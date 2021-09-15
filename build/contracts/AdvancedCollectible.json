@@ -624,7 +624,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 186,
-        "sourceUnit": 1180,
+        "sourceUnit": 1297,
         "src": "24:57:17",
         "symbolAliases": [],
         "unitAlias": ""
@@ -635,7 +635,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 186,
-        "sourceUnit": 1304,
+        "sourceUnit": 1421,
         "src": "82:59:17",
         "symbolAliases": [],
         "unitAlias": ""
@@ -650,10 +650,10 @@
               "id": 4,
               "name": "ERC721",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1179,
+              "referencedDeclaration": 1296,
               "src": "175:6:17",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721_$1179",
+                "typeIdentifier": "t_contract$_ERC721_$1296",
                 "typeString": "contract ERC721"
               }
             },
@@ -668,10 +668,10 @@
               "id": 6,
               "name": "VRFConsumerBase",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1303,
+              "referencedDeclaration": 1420,
               "src": "183:15:17",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_VRFConsumerBase_$1303",
+                "typeIdentifier": "t_contract$_VRFConsumerBase_$1420",
                 "typeString": "contract VRFConsumerBase"
               }
             },
@@ -681,15 +681,15 @@
           }
         ],
         "contractDependencies": [
-          1179,
-          1303,
-          1359,
-          1830,
-          1861,
-          1888,
-          2225,
-          3414,
-          3660
+          1296,
+          1420,
+          1571,
+          2042,
+          2073,
+          2100,
+          2437,
+          3626,
+          3777
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -697,15 +697,15 @@
         "id": 185,
         "linearizedBaseContracts": [
           185,
-          1303,
-          3414,
-          1179,
-          1861,
-          1888,
-          1830,
-          1359,
-          3660,
-          2225
+          1420,
+          3626,
+          1296,
+          2073,
+          2100,
+          2042,
+          1571,
+          3777,
+          2437
         ],
         "name": "AdvancedCollectible",
         "nodeType": "ContractDefinition",
@@ -1320,10 +1320,10 @@
                   "name": "VRFConsumerBase",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1303,
+                  "referencedDeclaration": 1420,
                   "src": "778:15:17",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_VRFConsumerBase_$1303_$",
+                    "typeIdentifier": "t_type$_t_contract$_VRFConsumerBase_$1420_$",
                     "typeString": "type(contract VRFConsumerBase)"
                   }
                 },
@@ -1376,10 +1376,10 @@
                   "name": "ERC721",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1179,
+                  "referencedDeclaration": 1296,
                   "src": "831:6:17",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_ERC721_$1179_$",
+                    "typeIdentifier": "t_type$_t_contract$_ERC721_$1296_$",
                     "typeString": "type(contract ERC721)"
                   }
                 },
@@ -1581,7 +1581,7 @@
                       "name": "requestRandomness",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1254,
+                      "referencedDeclaration": 1371,
                       "src": "1073:17:17",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes32_$_t_uint256_$returns$_t_bytes32_$",
@@ -1912,7 +1912,7 @@
           },
           {
             "baseFunctions": [
-              1198
+              1315
             ],
             "body": {
               "id": 161,
@@ -2173,10 +2173,10 @@
                       "name": "_safeMint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        824,
-                        853
+                        941,
+                        970
                       ],
-                      "referencedDeclaration": 824,
+                      "referencedDeclaration": 941,
                       "src": "1537:9:17",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -2248,7 +2248,7 @@
                       "name": "_setTokenURI",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1075,
+                      "referencedDeclaration": 1192,
                       "src": "1577:12:17",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_string_memory_ptr_$returns$__$",
@@ -2742,7 +2742,7 @@
                               "name": "_msgSender",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 2213,
+                              "referencedDeclaration": 2425,
                               "src": "1926:10:17",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_payable_$",
@@ -2793,7 +2793,7 @@
                           "name": "_isApprovedOrOwner",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 809,
+                          "referencedDeclaration": 926,
                           "src": "1907:18:17",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_address_$_t_uint256_$returns$_t_bool_$",
@@ -2924,7 +2924,7 @@
                       "name": "_setTokenURI",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1075,
+                      "referencedDeclaration": 1192,
                       "src": "2033:12:17",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_string_memory_ptr_$returns$__$",
